@@ -9,6 +9,7 @@
 import { Router } from 'express';
 
 import HomeController from './module/home/homeController';
+
 const routes =  Router();
 
 routes.get('/api/',HomeController.index);
